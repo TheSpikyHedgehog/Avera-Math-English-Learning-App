@@ -1,4 +1,4 @@
-**<p style="text-align: center;font-size:50px"> Avera </p>**
+#**<p style="text-align: center;font-size:50px"> Avera </p>**
 **<p style="text-align: center;font-size:25px"> English & Math Practicing App </p>**
 
 <p align="center"> 
@@ -25,7 +25,6 @@
      </p>
 
 ***<p style="text-align: center;"> Welcome! Please read this before using this product. </p>***
-
 # Features
 
 ### **<p style="font-size:20px"> Math </p>**
@@ -87,6 +86,8 @@ Most modules that this project uses are included in Python's standard utility mo
 - pygame
 - json
 - os
+
+After that, run `main_file.py`!
 
 If you don't know how to install modules, you can open your terminal and type in the following command: `pip install <module_name>` or `pip3 install <module_name>`. Another harder but reliable way is to download the tar or zip file and install the module *manually*. You can download the file from websites like [PyPi](https://pypi.org).
 
