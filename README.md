@@ -25,6 +25,8 @@
      </p>
 
 ***<p style="text-align: center;"> Welcome! Please read this before using this product. </p>***
+
+> **Note: This project is not fully done yet.  It will receive more updates in the future**
 # Features
 
 ### **<p style="font-size:20px"> Math </p>**
