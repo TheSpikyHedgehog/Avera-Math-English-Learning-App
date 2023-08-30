@@ -1,0 +1,5 @@
+stdlibs 
+#Python's Standard Library. This should be installed on default but just in case...
+# stdlibs includes important modules such as os or tkinter and slightly minor ones like json
+
+pygame

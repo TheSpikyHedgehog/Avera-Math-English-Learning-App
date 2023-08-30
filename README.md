@@ -1,4 +1,4 @@
-# **<p style="text-align: center;font-size:50px"> Avera </p>**
+**<p style="text-align: center;font-size:50px"> Avera </p>**
 **<p style="text-align: center;font-size:25px"> English & Math Practicing App </p>**
 
 <p align="center"> 
