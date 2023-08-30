@@ -117,6 +117,8 @@ You could use Git (like Linux).
 
 When you first load onto the project GitHub page, click on the folder that says "EXE releases".  Download the newest one (via wget, git, cURL, directly, or other) and execute it. Pick your location and let it do it's job. Once done, you can go to the folder and you can execute the EXE file. Note that everything in the folder depends on each other so **do NOT** remove **any** files from the folder. If you want, you may create a shortcut of the EXE file and run the batch script.  If done correctly, the app should pop up on your start menu.
 
+# Error Info
+ If you encounter an error, please close the app and try again.  If it keeps happening, report the issue on GitHub.
 
 # Licence
 
