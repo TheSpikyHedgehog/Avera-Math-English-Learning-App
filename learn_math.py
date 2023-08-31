@@ -88,8 +88,8 @@ class Addition(object): #process Addition gui and logic
         clicked.set(2)
         dropdown = OptionMenu(self.add, clicked, *options)
         dropdown.pack(pady=1)
-        btn = Button(self.add, text="Select", font = ("Tahoma", 15), command= lambda : [click.play(),self.addNumRange(int(clicked.get()), whichGen)])
-        btn.pack()
+        btn = Button(self.add, relief="solid",text="Select", font = ("Tahoma", 14), command= lambda : [click.play(),self.addNumRange(int(clicked.get()), whichGen)])
+        btn.pack(pady=20)
 
     def addNumRange(self, fcAmt, whichGen):
         self.clearWidgets()
@@ -103,8 +103,8 @@ class Addition(object): #process Addition gui and logic
         clicked.set('0, 10')
         dropdown = OptionMenu(self.add, clicked, *options)
         dropdown.pack(pady=1)
-        btn = Button(self.add, text="Begin", font = ("Tahoma", 15), command= lambda : [click.play(),self.addFactsGUIGen(clicked.get(), fcAmt, whichGen)])
-        btn.pack()
+        btn = Button(self.add, relief="solid",text="Begin", font = ("Tahoma", 14), command= lambda : [click.play(),self.addFactsGUIGen(clicked.get(), fcAmt, whichGen)])
+        btn.pack(pady=20)
 
     def next_q(self, correctAns, userAns, numRng, code, fcAmt, whichGen): #a bit too much paramaters
         print(f"crt = {correctAns} | userans = {userAns} |, {numRng}")
@@ -317,8 +317,8 @@ class Subtraction(object):
         clicked.set(10)
         dropdown = OptionMenu(self.sub, clicked, *options)
         dropdown.pack(pady=1)
-        btn = Button(self.sub, text="Select", font = ("Tahoma", 15), command= lambda : [click.play(),self.addNumRange(int(clicked.get()))])
-        btn.pack()
+        btn = Button(self.sub, relief="solid",text="Select", font = ("Tahoma", 14), command= lambda : [click.play(),self.addNumRange(int(clicked.get()))])
+        btn.pack(pady=20)
 
     def addNumRange(self, fcAmt):
         self.clearWidgets()
@@ -333,8 +333,8 @@ class Subtraction(object):
         clicked.set('0, 10')
         dropdown = OptionMenu(self.sub, clicked, *options)
         dropdown.pack(pady=1)
-        btn = Button(self.sub, text="Begin", font = ("Tahoma", 15), command= lambda : [click.play(),self.subFactsGUIGen(clicked.get(), fcAmt)])
-        btn.pack()
+        btn = Button(self.sub, relief="solid",text="Begin", font = ("Tahoma", 14), command= lambda : [click.play(),self.subFactsGUIGen(clicked.get(), fcAmt)])
+        btn.pack(pady=20)
 
     def next_q(self, correctAns, userAns, numRng, code, fcAmt):
         print(f"crt = {correctAns} | userans = {userAns} |, {numRng}")
@@ -531,8 +531,8 @@ class Multiplication(object):
         clicked.set(10)
         dropdown = OptionMenu(self.mul, clicked, *options)
         dropdown.pack(pady=1)
-        btn = Button(self.mul, text="Select", font = ("Tahoma", 15), command= lambda : [click.play(),self.mulNumRange(int(clicked.get()))])
-        btn.pack()
+        btn = Button(self.mul, relief="solid", text="Select", font = ("Tahoma", 14), command= lambda : [click.play(),self.mulNumRange(int(clicked.get()))])
+        btn.pack(pady=20)
 
     def mulNumRange(self, fcAmt):
         self.clearWidgets()
@@ -547,8 +547,8 @@ class Multiplication(object):
         clicked.set('0, 10')
         dropdown = OptionMenu(self.mul, clicked, *options)
         dropdown.pack(pady=1)
-        btn = Button(self.mul, text="Begin", font = ("Tahoma", 15), command= lambda : [click.play(),self.mulFactsGUIGen(clicked.get(), fcAmt)])
-        btn.pack()
+        btn = Button(self.mul, relief="solid",text="Begin", font = ("Tahoma", 14), command= lambda : [click.play(),self.mulFactsGUIGen(clicked.get(), fcAmt)])
+        btn.pack(pady=20)
 
     def next_q(self, correctAns, userAns, numRng, code, fcAmt):
         print(f"crt = {correctAns} | userans = {userAns} |, {numRng}")
@@ -744,8 +744,8 @@ class Division(object):
         clicked.set(10)
         dropdown = OptionMenu(self.div, clicked, *options)
         dropdown.pack(pady=1)
-        btn = Button(self.div, text="Select", font = ("Tahoma", 15), command= lambda : [click.play(),self.addNumRange(int(clicked.get()))])
-        btn.pack()
+        btn = Button(self.div, text="Select", font = ("Tahoma", 14), relief="solid",command= lambda : [click.play(),self.addNumRange(int(clicked.get()))])
+        btn.pack(pady=20)
 
     def addNumRange(self, fcAmt):
         self.clearWidgets()
@@ -760,8 +760,8 @@ class Division(object):
         clicked.set('1, 10')
         dropdown = OptionMenu(self.div, clicked, *options)
         dropdown.pack(pady=1)
-        btn = Button(self.div, text="Begin", font = ("Tahoma", 15), command= lambda : [click.play(),self.divFactsGUIGen(clicked.get(), fcAmt)])
-        btn.pack()
+        btn = Button(self.div, text="Begin", relief="solid", font = ("Tahoma", 14), command= lambda : [click.play(),self.divFactsGUIGen(clicked.get(), fcAmt)])
+        btn.pack(pady=20)
 
     def next_q(self, correctAns, userAns, numRng, code, fcAmt):
         print(f"crt = {correctAns} | userans = {userAns} |, {numRng}")
