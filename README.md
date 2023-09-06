@@ -59,7 +59,9 @@
 ---
 ### **<p style="font-size:20px"> English </p>**
 
-- **None Yet!**
+- Type the Word
+- Comes in three different levels.
+  
 
 
 # Usage
